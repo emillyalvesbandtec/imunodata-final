@@ -6,7 +6,7 @@ https://codewithhugo.com/sequelize-data-types-a-practical-guide/
 */
 
 module.exports = (sequelize, DataTypes) => {
-    let Usuario = sequelize.define('geladeira',{
+    let Geladeira = sequelize.define('geladeira',{
 		ID_Geladeira: {
 			field: 'ID_Geladeira',
 			type: DataTypes.INTEGER,
@@ -27,5 +27,5 @@ module.exports = (sequelize, DataTypes) => {
 		timestamps: false,
 	});
 
-    return Usuario;
+    return Geladeira;
 };
